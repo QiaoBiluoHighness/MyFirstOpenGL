@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Lighting">
+      <UniqueIdentifier>{1c76470e-5836-4494-b7f8-fbc4961f748f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Getting_Started">
+      <UniqueIdentifier>{9fb43e75-cb67-43f2-9de3-2ee33ee34dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lighting\12_1_CreatingLightingScene_13_1_AmbientLighting">
+      <UniqueIdentifier>{3a938737-1c67-4fc5-a5bc-7528ee8975ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lighting\13_1_AmbientLighting_13_2_to13_4_DiffuseLighting">
+      <UniqueIdentifier>{1feff984-5bf7-4224-b002-ef8e1bc11944}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\glad\src\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="triangleRefactor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="13_1_CreatingLightingScene.cpp">
+      <Filter>源文件\Lighting\12_1_CreatingLightingScene_13_1_AmbientLighting</Filter>
+    </ClCompile>
+    <ClCompile Include="rotateCube.cpp">
+      <Filter>源文件\Getting_Started</Filter>
+    </ClCompile>
+    <ClCompile Include="13_2_AmbientLighting_DiffuseLighting.cpp">
+      <Filter>源文件\Lighting\13_1_AmbientLighting_13_2_to13_4_DiffuseLighting</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFWWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.vs" />
+    <None Include="shader.fs" />
+    <None Include="shader13_1CreatingLightingScene.fs">
+      <Filter>源文件\Lighting\12_1_CreatingLightingScene_13_1_AmbientLighting</Filter>
+    </None>
+    <None Include="shader13_1CreatingLightingScene.vs">
+      <Filter>源文件\Lighting\12_1_CreatingLightingScene_13_1_AmbientLighting</Filter>
+    </None>
+    <None Include="shaderRotateCube.fs">
+      <Filter>源文件\Getting_Started</Filter>
+    </None>
+    <None Include="shaderRotateCube.vs">
+      <Filter>源文件\Getting_Started</Filter>
+    </None>
+    <None Include="shader13_1CreatingLightingScene_LightingShader.fs">
+      <Filter>源文件\Lighting\12_1_CreatingLightingScene_13_1_AmbientLighting</Filter>
+    </None>
+    <None Include="shader13_1CreatingLightingScene_LightingShader.vs">
+      <Filter>源文件\Lighting\12_1_CreatingLightingScene_13_1_AmbientLighting</Filter>
+    </None>
+    <None Include="shader13_2AmbientLighting_DiffuseLighting.fs">
+      <Filter>源文件\Lighting\13_1_AmbientLighting_13_2_to13_4_DiffuseLighting</Filter>
+    </None>
+    <None Include="shader13_2AmbientLighting_DiffuseLighting.vs">
+      <Filter>源文件\Lighting\13_1_AmbientLighting_13_2_to13_4_DiffuseLighting</Filter>
+    </None>
+    <None Include="shader13_2AmbientLighting_DiffuseLighting_LightingShader.fs">
+      <Filter>源文件\Lighting\13_1_AmbientLighting_13_2_to13_4_DiffuseLighting</Filter>
+    </None>
+    <None Include="shader13_2AmbientLighting_DiffuseLighting_LightingShader.vs">
+      <Filter>源文件\Lighting\13_1_AmbientLighting_13_2_to13_4_DiffuseLighting</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="awesomeface.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="container.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
